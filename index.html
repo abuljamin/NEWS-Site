@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+<?php?>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo"> LOGO </div>
+        <div id="adds">For Adds</div>
+        <div id="menu">
+            <!-- blocks/menu.php -->
+            <ul>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Thời sự</a></li>
+                <li><a href="#">Góc nhìn</a></li>
+                <li><a href="#">Thế giới</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="container">
+        <div id="breadcrumb">
+            Trang nhất
+        </div>
+        <div id="date_time"> Date / Time </div>
+        <div id="icons"> some icon image </div>
+        <div id="main_content"> Main content </div>
+        <div id="side_bar"> side bar </div>
+    </div>
+    <div id="footer">
+        <!-- blocks/footer.php -->
+        <?php
+            require "blocks/menu.php";
+        ?>
+    </div>
+</div>
+
+</body>
+</html>
